@@ -27,7 +27,7 @@ python app.py
 http://localhost:5000
 
 ## 🖥️ Preview do sistema
-
+![Cadastro de clientes](https://github.com/user-attachments/assets/80361328-6cfb-46a7-944c-8a65ebe12182)
 
 ## 👨‍💻 Autor
 Vitor Ferraz

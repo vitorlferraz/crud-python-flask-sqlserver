@@ -1,28 +1,36 @@
-# CRUD Python Flask + SQL Server
+# 🚀 CRUD de Clientes - Flask + SQL Server
 
-API REST desenvolvida em Python utilizando Flask, conectada ao SQL Server, implementando operações CRUD completas.
+Sistema completo de cadastro de clientes com frontend e backend.
 
-## 🚀 Funcionalidades
+## 📌 Funcionalidades
 
-- Listar clientes (GET)
-- Criar cliente (POST)
-- Atualizar cliente (PUT)
-- Deletar cliente (DELETE)
+- Criar clientes
+- Listar clientes
+- Atualizar clientes
+- Deletar clientes
 
-##Tecnologias
+## 🛠 Tecnologias
 
-- Python
-- Flask
+- Python (Flask)
 - SQL Server
-- pyodbc
+- HTML, CSS, JavaScript
 
-##Como executar
+## ▶️ Como rodar
 
 1. Instalar dependências:
 pip install flask pyodbc
 
-2. Rodar aplicação:
+2. Rodar:
 python app.py
 
-3. Acessar:
-http://localhost:5000/clientes
+3. Abrir:
+http://localhost:5000
+
+## 🖥️ Preview do sistema
+
+![Cadastro de clientes](https://github.com/user-attachments/assets/07f4d372-c07f-4174-b726-09ba162c4052)
+
+
+## 👨‍💻 Autor
+Vitor Ferraz
+

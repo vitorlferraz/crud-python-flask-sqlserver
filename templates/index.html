@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>CRUD Clientes</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin-left: 5px;
+            cursor: pointer;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        li {
+            margin: 10px 0;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cadastro de Clientes</h1>
+
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="salvarCliente()">Salvar</button>
+
+    <p id="msg"></p>  <!-- AQUI -->
+
+    <h2>Lista de Clientes</h2>
+    <ul id="lista"></ul>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

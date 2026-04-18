@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request,render_template
 import pyodbc
 
 app = Flask(__name__)
@@ -27,7 +27,7 @@ def get_clientes():
 
 # 🔹 POST - criar cliente
 @app.route('/clientes', methods=['POST'])
-def criar_cliente():
+def criar_cliente(): 
     dados = request.json
 
     nome = dados.get('nome')
@@ -70,6 +70,10 @@ def deletar_cliente(id):
 
     return jsonify({"mensagem": "Cliente deletado com sucesso"})
 
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

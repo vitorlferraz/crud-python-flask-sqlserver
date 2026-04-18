@@ -28,8 +28,6 @@ http://localhost:5000
 
 ## 🖥️ Preview do sistema
 
-![Cadastro de clientes](https://github.com/user-attachments/assets/07f4d372-c07f-4174-b726-09ba162c4052)
-
 
 ## 👨‍💻 Autor
 Vitor Ferraz
